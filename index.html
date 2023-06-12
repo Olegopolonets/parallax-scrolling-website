@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js" defer></script>
 </head>
 
+
 <body>
+
+    <header class="main-header">
+        <div class="layers">
+            <div class="layer__header">
+                <div class="layers__caption">Welcome to Parallax</div>
+                <div class="layers__title">Fairy Forest</div>
+            </div>
+            <div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+            <div class="layer layers__title" style="background-image: url(img/layer-middle.png);"></div>
+            <div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+        </div>
+    </header>
+
+    <article class="main-articale" style="background-image: url(img/dungeon.jpg);">
+        <div class="main-articale__content">
+            <h2 class="main-articale__header"> To be continued</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aperiam, quidem, placeat asperiores
+                iure, distinctio eveniet aliquid eos labore et provident amet? Doloribus, cumque? Temporibus numquam
+                incidunt sint beatae hic consequatur eius?</p>
+        </div>
+        <div class="copy">© WebDesign Master</div>
+    </article>
 
 </body>
 
